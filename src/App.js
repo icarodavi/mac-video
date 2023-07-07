@@ -28,7 +28,7 @@ function Model(props) {
             <Html className="content" rotation-x={-Math.PI / 2} position={[0, 0.05, -0.09]} transform occlude>
               <div className="wrapper" onPointerDown={(e) => e.stopPropagation()}>
                 <div>
-                  <video width="750" height="500" controls>
+                  <video width="750" height="500" controls autoPlay loop>
                     <source src={video} type="video/mp4" />
                   </video>
                 </div>
